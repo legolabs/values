@@ -1,11 +1,7 @@
 
-<h2 align="center">Supporting Opensource</h2>
+<h2 align="center">Why a clone of formapro/values</h2>
 
-`formapro\values` is an MIT-licensed open source project with its ongoing development made possible entirely by the support of community and our customers. If you'd like to join them, please consider:
-
-- [Become our client](http://forma-pro.com/)
-- [Become a sponsor](https://www.patreon.com/makasim)
-
+Just to create a packagist package which supports php ^8.1 instead of ^7.1. Ironically, all the code is compatible with PHP 8.1, no changes was made to code.
 ---
 
 
