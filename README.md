@@ -1,7 +1,8 @@
 
-<h2 align="center">Why a clone of formapro/values</h2>
+# Why a clone of formapro/values
 
 Just to create a packagist package which supports php ^8.1 instead of ^7.1. Ironically, all the code is compatible with PHP 8.1, no changes was made to code.
+
 ---
 
 
