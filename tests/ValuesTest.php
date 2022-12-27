@@ -1,15 +1,15 @@
 <?php
-namespace Formapro\Values\Tests;
+namespace Legolabs\Values\Tests;
 
-use function Formapro\Values\add_value;
-use function Formapro\Values\build_object;
-use function Formapro\Values\clone_object;
-use function Formapro\Values\get_value;
-use function Formapro\Values\get_values;
-use function Formapro\Values\set_value;
-use function Formapro\Values\set_values;
-use Formapro\Values\Tests\Model\EmptyObject;
-use Formapro\Values\ValuesTrait;
+use function Legolabs\Values\add_value;
+use function Legolabs\Values\build_object;
+use function Legolabs\Values\clone_object;
+use function Legolabs\Values\get_value;
+use function Legolabs\Values\get_values;
+use function Legolabs\Values\set_value;
+use function Legolabs\Values\set_values;
+use Legolabs\Values\Tests\Model\EmptyObject;
+use Legolabs\Values\ValuesTrait;
 use PHPUnit\Framework\TestCase;
 
 class ValuesTest extends TestCase

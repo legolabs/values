@@ -1,16 +1,16 @@
 <?php
-namespace Formapro\Values\Tests;
+namespace Legolabs\Values\Tests;
 
-use function Formapro\Values\add_object;
-use function Formapro\Values\get_object;
-use function Formapro\Values\get_objects;
-use Formapro\Values\HookStorage;
-use function Formapro\Values\register_propagate_root_hooks;
-use function Formapro\Values\set_object;
-use function Formapro\Values\set_objects;
-use function Formapro\Values\set_values;
-use Formapro\Values\Tests\Model\EmptyObject;
-use Formapro\Values\Tests\Model\SubObject;
+use function Legolabs\Values\add_object;
+use function Legolabs\Values\get_object;
+use function Legolabs\Values\get_objects;
+use Legolabs\Values\HookStorage;
+use function Legolabs\Values\register_propagate_root_hooks;
+use function Legolabs\Values\set_object;
+use function Legolabs\Values\set_objects;
+use function Legolabs\Values\set_values;
+use Legolabs\Values\Tests\Model\EmptyObject;
+use Legolabs\Values\Tests\Model\SubObject;
 use PHPUnit\Framework\TestCase;
 
 class PropagateRootObjectTest extends TestCase

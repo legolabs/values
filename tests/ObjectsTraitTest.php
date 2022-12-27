@@ -1,20 +1,20 @@
 <?php
-namespace Formapro\Values\Tests;
+namespace Legolabs\Values\Tests;
 
-use function Formapro\Values\clone_object;
-use function Formapro\Values\get_object;
-use function Formapro\Values\get_objects;
-use function Formapro\Values\get_values;
-use function Formapro\Values\get_object_changed_values;
-use Formapro\Values\HooksEnum;
-use Formapro\Values\HookStorage;
-use function Formapro\Values\register_hook;
-use function Formapro\Values\register_object_hooks;
-use function Formapro\Values\set_values;
-use Formapro\Values\Tests\Model\EmptyObject;
-use Formapro\Values\Tests\Model\ObjectInterface;
-use Formapro\Values\Tests\Model\OtherSubObject;
-use Formapro\Values\Tests\Model\SubObject;
+use function Legolabs\Values\clone_object;
+use function Legolabs\Values\get_object;
+use function Legolabs\Values\get_objects;
+use function Legolabs\Values\get_values;
+use function Legolabs\Values\get_object_changed_values;
+use Legolabs\Values\HooksEnum;
+use Legolabs\Values\HookStorage;
+use function Legolabs\Values\register_hook;
+use function Legolabs\Values\register_object_hooks;
+use function Legolabs\Values\set_values;
+use Legolabs\Values\Tests\Model\EmptyObject;
+use Legolabs\Values\Tests\Model\ObjectInterface;
+use Legolabs\Values\Tests\Model\OtherSubObject;
+use Legolabs\Values\Tests\Model\SubObject;
 use PHPUnit\Framework\TestCase;
 
 class ObjectsTraitTest extends TestCase

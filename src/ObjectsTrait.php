@@ -1,5 +1,5 @@
 <?php
-namespace Formapro\Values;
+namespace Legolabs\Values;
 
 /**
  * @property array $values

@@ -1,7 +1,7 @@
 <?php
-namespace Formapro\Values\Tests\Model\Github;
+namespace Legolabs\Values\Tests\Model\Github;
 
-use Formapro\Values\ValuesTrait;
+use Legolabs\Values\ValuesTrait;
 
 class GistFile
 {

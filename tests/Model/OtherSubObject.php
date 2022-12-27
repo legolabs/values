@@ -1,5 +1,5 @@
 <?php
-namespace Formapro\Values\Tests\Model;
+namespace Legolabs\Values\Tests\Model;
 
 class OtherSubObject extends EmptyObject
 {

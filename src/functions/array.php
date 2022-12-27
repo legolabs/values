@@ -1,5 +1,5 @@
 <?php
-namespace Formapro\Values;
+namespace Legolabs\Values;
 
 function &array_get($key, $default, &$values)
 {

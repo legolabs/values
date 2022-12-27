@@ -1,13 +1,13 @@
 <?php
-namespace Formapro\Values\Tests;
+namespace Legolabs\Values\Tests;
 
-use function Formapro\Values\get_values;
-use function Formapro\Values\set_values;
-use Formapro\Values\Tests\Model\Github\Gist;
-use Formapro\Values\Tests\Model\Github\GistFile;
-use Formapro\Values\Tests\Model\Github\Owner;
-use Formapro\Values\Tests\Model\Github\RepositoryV1;
-use Formapro\Values\Tests\Model\Github\RepositoryV2;
+use function Legolabs\Values\get_values;
+use function Legolabs\Values\set_values;
+use Legolabs\Values\Tests\Model\Github\Gist;
+use Legolabs\Values\Tests\Model\Github\GistFile;
+use Legolabs\Values\Tests\Model\Github\Owner;
+use Legolabs\Values\Tests\Model\Github\RepositoryV1;
+use Legolabs\Values\Tests\Model\Github\RepositoryV2;
 use PHPUnit\Framework\TestCase;
 
 class GithubTest extends TestCase

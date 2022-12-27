@@ -1,9 +1,9 @@
 <?php
-namespace Formapro\Values\Tests;
+namespace Legolabs\Values\Tests;
 
-use function Formapro\Values\clone_object;
-use function Formapro\Values\set_values;
-use Formapro\Values\Tests\Model\EmptyObject;
+use function Legolabs\Values\clone_object;
+use function Legolabs\Values\set_values;
+use Legolabs\Values\Tests\Model\EmptyObject;
 use PHPUnit\Framework\TestCase;
 
 class ChangedValuesTraitTest extends TestCase

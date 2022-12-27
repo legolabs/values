@@ -21,11 +21,11 @@
     "bin-dir": "bin"
   },
   "autoload": {
-    "psr-4": { "Formapro\\Values\\": "src" },
+    "psr-4": { "Legolabs\\Values\\": "src" },
     "files": ["src/functions_include.php"]
   },
   "autoload-dev": {
-    "psr-4": { "Formapro\\Values\\Tests\\": "tests" }
+    "psr-4": { "Legolabs\\Values\\Tests\\": "tests" }
   },
   "extra": {
     "branch-alias": {

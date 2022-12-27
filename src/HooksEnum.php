@@ -1,6 +1,6 @@
 <?php
 
-namespace Formapro\Values;
+namespace Legolabs\Values;
 
 class HooksEnum
 {

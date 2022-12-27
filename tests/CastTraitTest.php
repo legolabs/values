@@ -1,9 +1,9 @@
 <?php
-namespace Formapro\Values\Tests;
+namespace Legolabs\Values\Tests;
 
-use function Formapro\Values\get_object_changed_values;
-use function Formapro\Values\get_values;
-use Formapro\Values\Tests\Model\CastableObject;
+use function Legolabs\Values\get_object_changed_values;
+use function Legolabs\Values\get_values;
+use Legolabs\Values\Tests\Model\CastableObject;
 use PHPUnit\Framework\TestCase;
 
 class CastTraitTest extends TestCase

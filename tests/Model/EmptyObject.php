@@ -1,9 +1,9 @@
 <?php
-namespace Formapro\Values\Tests\Model;
+namespace Legolabs\Values\Tests\Model;
 
-use Formapro\Values\ChangedValuesTrait;
-use Formapro\Values\ObjectsTrait;
-use Formapro\Values\ValuesTrait;
+use Legolabs\Values\ChangedValuesTrait;
+use Legolabs\Values\ObjectsTrait;
+use Legolabs\Values\ValuesTrait;
 
 class EmptyObject
 {

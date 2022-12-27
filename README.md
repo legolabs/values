@@ -40,9 +40,9 @@ Here's the [real response](https://api.github.com/repos/symfony/symfony), we wil
 <?php
 namespace Acme;
 
-use Formapro\Values\ValuesTrait;
-use Formapro\Values\ObjectsTrait;
-use function Formapro\Values\set_values;
+use Legolabs\Values\ValuesTrait;
+use Legolabs\Values\ObjectsTrait;
+use function Legolabs\Values\set_values;
 
 class Repo
 {
@@ -106,8 +106,8 @@ Lets create Gist and GistFile object. Populate them with data and get it as arra
 <?php
 namespace  Acme;
 
-use Formapro\Values\ObjectsTrait;
-use Formapro\Values\ValuesTrait;
+use Legolabs\Values\ObjectsTrait;
+use Legolabs\Values\ValuesTrait;
 
 class Gist
 {
