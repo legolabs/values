@@ -147,7 +147,7 @@ function get_object_changed_values($object)
  *
  * @return object
  */
-function build_object_ref($classOrCallable = null, array &$values, $context = null, $contextKey = null)
+function build_object_ref($classOrCallable = null, array &$values = null, $context = null, $contextKey = null)
 {
     foreach (get_registered_hooks(HooksEnum::BUILD_OBJECT, HooksEnum::GET_OBJECT_CLASS) as $callback) {
         if ($dynamicClassOrCallable = call_user_func($callback, $values, $context, $contextKey, $classOrCallable)) {
@@ -204,7 +204,7 @@ function build_object_ref($classOrCallable = null, array &$values, $context = nu
  *
  * @return object
  */
-function build_object($classOrCallable = null, array $values)
+function build_object($classOrCallable = null, array $values = null)
 {
     return build_object_ref($classOrCallable, $values);
 }
