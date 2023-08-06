@@ -1,6 +1,7 @@
 <?php
 namespace Legolabs\Values;
 
+#[AllowDynamicProperties]
 final class HookStorage
 {
     /**
